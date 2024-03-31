@@ -3,10 +3,10 @@ from PIL import Image
 
 st.title(" Bienvenido")
 
-st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales")
-st.write("Facilmente puedo realizar backend y frontend.")
-image=Image.open("flores.jpg")
-st.image(image, caption= "Interfaces Multimodales Sara")
+st.header("En este puedo demostrar al mundo las capacidades sobre humanas que poseo")
+st.write("Tengo un doctorado en Memes.")
+image=Image.open("Burro.jpg")
+st.image(image, caption= "Burro sexy")
 
 texto=st.text_input("Escribe algo", "Este es mi texto")
 st.write("el texto escrito es", texto)
